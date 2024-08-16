@@ -1,0 +1,47 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/rodapé.css");
+@import url("styles/carrossel.css");
+
+/* Estilos para o cabeçalho */
+body {
+    margin: 0;
+    align-items: center;
+}
+/* banner.css */
+.banner_top {
+    text-align: center;
+    /* Centraliza horizontalmente o conteúdo dentro do contêiner */
+    margin: 0 auto;
+    /* Isso centraliza o contêiner do banner na página */
+}
+
+.banner-img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #45A583;
+}
+
+.banner-make {
+    text-align: center;
+    /* Centraliza horizontalmente o conteúdo dentro do contêiner */
+    background: linear-gradient(to top right, #150D01, #452A05);
+    max-width: 100%;
+    height: auto;
+}
+
+.transporte {
+    background-color: #edf0ed;
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 1.5em;
+}

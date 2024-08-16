@@ -1,0 +1,41 @@
+.contador {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(225, 225, 243);
+}
+
+#counter {
+    border-radius: 5px;
+    height: 100px;
+    border: solid;
+    border-color: rgb(234, 234, 238);
+    border-width: 2px;
+}
+
+#value {
+    font-size: 2em;
+    color: rgb(71, 75, 75);
+    text-align: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.count-button {
+    width: 2rem;
+    height: 2rem;
+    font-size: 3rem;
+    background-color: rgb(102, 91, 91);
+}
+
+.estilo {
+    align-items: center;
+    color: rgb(139, 141, 139);
+    font-size: 18px;
+    margin-left: 5px;
+}

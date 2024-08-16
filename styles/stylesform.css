@@ -1,0 +1,29 @@
+:root {
+    --fonte-principal: 'Montserrat', sans-serif;
+    --fonte-logo: 'Inter', sans-serif;
+    --azul-claro: #6BD1FF;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-family: var(--fonte-principal);
+    color: var(--preto);
+    font-size: 20px;
+}
+
+.cabecalho__logo-link {
+    text-decoration: none;
+}
+
+.formulario {
+    position: relative;
+    width: auto;
+    max-width: 1000px;
+    /* Defina a largura máxima do formulário */
+    margin: 0 auto;
+}
+
+.campo__escrita {
+    border-radius: 10px;
+}
