@@ -1,4 +1,4 @@
-export function carregar() {
+function carregar() {
 fetch("https://bella-beleza-api.vercel.app/produtos")
     .then((response) => response.json())
     .then((produtos) => {
@@ -45,7 +45,7 @@ fetch("https://bella-beleza-api.vercel.app/produtos")
         });
     });
       // Clica no primeiro botão 'Adicionar ao Carrinho' automaticamente
-    clickButton();
+    //clickButton();
     });
 }
 
